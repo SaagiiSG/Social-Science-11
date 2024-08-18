@@ -5,6 +5,7 @@ import Header from './components/header'
 import GradeNav from './components/gradeNav'
 import { Grade } from './pages/Grade'
 import Main from './pages/main'
+import TopicPage from './pages/topicPage'
 function App() {
  
 
@@ -16,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Main/>}/>
           <Route path='/grade/:gradeId' element={<Grade/>}/>
-          <Route path='/grade/:gradeId/:topicId' element={<></>}/>
+          <Route path='/grade/:gradeId/:topicId' element={<TopicPage/>}/>
         </Routes>
       </BrowserRouter>
     </main>

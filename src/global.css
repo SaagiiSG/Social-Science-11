@@ -9,3 +9,8 @@
 .bg_color{
   background: linear-gradient(224deg, rgba(11, 18, 21, 0.20) 32.22%, rgba(11, 18, 21, 0.20) 51.27%, rgba(48, 173, 219, 0.20) 59.09%, rgba(11, 18, 21, 0.20) 68.47%, rgba(11, 18, 21, 0.20) 90.64%), linear-gradient(147deg, #0B1215 0.27%, #4D4457 39.64%, #06090B 70.58%, #0B1215 94.01%);
 }
+.btn_color{
+ 
+  border: 1px solid #7175EF;
+  background: linear-gradient(90deg, #0B1215 0%, #35383A 49.17%, #0B1215 100%);
+}
